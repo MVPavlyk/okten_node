@@ -1,0 +1,32 @@
+.main__form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    align-items: center;
+}
+
+.main__form input {
+    width: 400px;
+    height: 30px;
+    border-radius: 3px;
+    padding: 0 10px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+}
+
+.main__button {
+    padding: 7px 15px;
+    width: fit-content;
+    background-color: brown;
+    color: aliceblue;
+    font-size: 16px;
+    border: none;
+    border-radius: 3px;
+    transition: .2s all linear;
+    cursor: pointer;
+}
+
+.main__button:hover {
+    background-color: crimson;
+}

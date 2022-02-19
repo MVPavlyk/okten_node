@@ -1,0 +1,16 @@
+.users__wrap{
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+}
+
+.users__block{
+    padding: 10px;
+    border-radius: 3px;
+    background-color: #fff;
+    color: black;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}

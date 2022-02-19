@@ -1,0 +1,10 @@
+.user__block{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    padding: 20px;
+    font-size: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    color: black;
+}

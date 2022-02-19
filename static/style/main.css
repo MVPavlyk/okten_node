@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-image: linear-gradient(to right, #8e2de2, #4a00e0);
+    color: white;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+
+}
+
+.wrong {
+    font-size: 50px;
+    color: crimson;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+}
