@@ -9,12 +9,9 @@ const validation = {
     },
     dataChecker: (email, password) => {
         for (const user of users) {
-            if (email === user.email) {
-                if (password === user.password) {
-                    return users.indexOf(user);
-                }
+            if (email === user.email && password === user.password) {
+                return users.indexOf(user);
             }
-
         }
         return false;
     }
